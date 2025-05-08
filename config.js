@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
+const ownervb = process.env.OWNERS || "917684990894;BISWAJIT;917684990894;Raja"
 
 const ownerlist = ownervb.split(';');
 
@@ -20,13 +20,13 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-global.mods = ['917605902011', '32460248586']
-global.allowed = ['917605902011', '32460248586', '19152999993']
+global.mods = ['917684990894', '']
+global.allowed = ['', '', '']
 
 // Sticker WM
 global.botname = process.env.BOTNAME
-global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
+global.packname = 'DARK┃ᴮᴼᵀ'
+global.author = 'RSJA'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 // Status indicators
